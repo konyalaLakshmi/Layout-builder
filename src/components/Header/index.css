@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.header {
+  align-self: stretch;
+  text-align: center;
+  margin-bottom: 55px;
+  background-color: #cbd5e1;
+}
+.h1 {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .h1 {
+    font-size: 43px;
+  }
+}

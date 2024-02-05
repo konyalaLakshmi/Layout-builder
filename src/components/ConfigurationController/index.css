@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.container{
+    height:30vh;
+    width:100%;
+    background-color: #475569;
+    padding-left:40px;
+    padding-top:16px;
+}
+.heading{
+color:white;
+font-weight:bold;
+font-size:34px;
+margin-bottom:8px;
+}
+.checkbox-group-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    color:white;
+    margin-left:5px;
+    font-weight:400;
+    font-size:14px;
+}
+.checkbox1{
+    margin-bottom:5px;
+}

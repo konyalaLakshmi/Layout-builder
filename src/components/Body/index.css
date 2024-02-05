@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.body-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:13px;
+    margin-bottom:14px;
+    height:360px;
+}
+.left{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #e2e8f0;
+color:#475569;
+padding:19px;
+}
+.right{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #e2e8f0;
+color:#475569;
+padding:19px;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.h1{
+    font-size:24px;
+    font-weight:bold;
+    color:#475569;
+}
+.item{
+    font-size:18px;
+    font-family:"Roboto";
+    margin:8px;
+}
+.rItem{
+    border:1px solid #475569;
+     display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size:14px;
+}
